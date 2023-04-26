@@ -1,0 +1,20 @@
+.footer{
+    height:30%
+}
+.fLink{
+    color: #e0301e;
+    text-decoration: none;
+}
+.fLink:hover {
+    color: #e0301e;
+}
+.footerSection {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1065px 
+}
+@media screen and (max-width: 576px) {
+    .footerSection {
+      margin-left: 50px;
+    }
+}

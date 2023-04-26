@@ -1,0 +1,86 @@
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 100px; */
+    padding-top: 32px;
+    margin: 0 auto;
+    width: 580px;
+}
+.rowContainer{
+    display: flex;
+}
+
+.border {
+    border-left: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    height: 48px;
+    margin-left: 51px;
+    margin-bottom: 48px;
+}
+
+.title {
+    font-family: "PwC ITC Charter",Georgia,Serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 8px;
+    margin-left: 44px;
+}
+.content {
+    font-family: "PwC ITC Charter",Georgia,Serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.contentMax {
+    font-family: "PwC ITC Charter",Georgia,Serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.contentMin {
+    /* font-family: 'PwC Helvetica Neue',arial,serif; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 8px;
+    margin-bottom: 47px;
+}
+.iconText{
+    font-family: "PwC ITC Charter",Georgia,Serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-left: 3px;
+    margin-bottom: 120px;
+}
+.logoContainer{
+}
+@media screen and (max-width: 576px) {
+    .logoContainer{
+        display: none;
+    }
+    .header{
+        background: #3F88C5 !important;
+    }
+    .textContainer {
+        margin-left: 50px;
+    }
+}
+@media screen and (min-width: 577px) {
+    .textContainer {
+        margin-left: 80px;
+    }
+}

@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: conic-gradient(from 201.04deg at 69.69% -51.7%, #3F88C5 0deg, #203570 360deg, #203570 360deg);
+    height: auto;
+}
+p{
+    margin: 0px;
+}
+@media screen and (max-width: 1200px) {
+    .header {
+        width: 1440px;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    .header {
+        height: 460px;
+    }
+}
+    

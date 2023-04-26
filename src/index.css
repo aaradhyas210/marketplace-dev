@@ -1,0 +1,36 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+@font-face {
+  font-family: "PwC ITC Charter";
+  src: local("ITC Charter Com"),
+    url("./Fonts/ITC/ITCCharterCom-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PwC Helvetica Neue";
+  src: local("Helvetica Neue LT Pro"),
+    url("./Fonts/Helvetica/HelveticaNeueLTPro-Lt.ttf") format("truetype");
+}
+
+/* @font-face {
+  font-family: "Helvetica Neue LT Pro";
+  src: local("Helvetica Neue LT Pro"),
+    url("./Fonts/Helvetica/HelveticaNeueLTPro-Lt.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetica Neue LT ProB";
+  src: local("Helvetica Neue LT ProB"),
+    url("./Fonts/Helvetica/HelveticaNeueLTPro-Blk.ttf") format("truetype");
+} */

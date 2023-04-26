@@ -1,0 +1,163 @@
+.cardArea {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-left: 100px; */
+  column-gap: 5px;
+  row-gap: 30px;
+  margin-bottom: 71px;
+}
+
+.projectTitle {
+  font-family: "PwC ITC Charter",Georgia,Serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 52px;
+  color: #2d2d2d;
+  margin: 41px 0px 37px 8px;
+}
+
+.cardImage {
+  width: 345px;
+  height: 195px;
+  border-radius: 6px 6px 0px 0px; 
+}
+
+.cardContent {
+  background-color: #2d2d2d;
+  flex-direction: column;
+  padding-bottom: 20px;
+  border-radius: 0px 0px 6px 6px;
+  width: 345px;
+}
+
+.cardText {
+  display: flex;
+  /* padding-left: 25px; */
+  padding-top: 18px;
+  justify-content: center;
+}
+
+.pTitle {
+  /* font-family: "Helvetica Neue LT Pro"; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #e8e6e6;
+  /* margin-left: 9px; */
+  margin-bottom: 0;
+}
+.linkText {
+  /* font-family: "Helvetica Neue LT Pro"; */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 25px;
+  background-color: #ffffff;
+  text-decoration: none;
+  padding: 7px 10px;
+  text-align: center;
+  margin-top: 20px;
+  display: block;
+  width: 81px;
+  height: 40px;
+  position: relative;
+  /* left: 26%; */
+  color: #2d2d2d;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.linkText:hover {
+  color: #2d2d2d;
+}
+/* .loadBtn {
+    width: 190px;
+    height: 68px;
+    background: #2D2D2D;
+    border-radius: 8px;
+    margin-top: 85px;
+    margin-left: 610px;
+    margin-bottom: 71px;
+    border: 0;
+    border-bottom: 4px solid #E0301E;
+} */
+
+.btmTriangle {
+  position: absolute;
+  margin-left: 116px;
+  border: 45px solid #2d2d2d;
+  border-top-color: #2d2d2d;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+
+.btnImg {
+  position: absolute;
+  left: -12px;
+  bottom: 5px;
+  /* cursor: pointer; */
+}
+/* .custom-modal-style {
+  width: 100%;
+  height: 100%;
+} */
+.modal-content {
+  width: 107% !important;
+  height: 325px !important;
+  border-radius: 0 !important;
+}
+.modal-header .btn-close {
+  position: relative;
+  top: 14px;
+  background-color: #ffffff;
+  z-index: 99999;
+}
+.metaVideo {
+  width: 100%;
+  height: 120%;
+}
+@media screen and (max-width: 1200px) {
+  .resDesign {
+    width: 1440px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .modal-content {
+    width: 80% !important;
+    height: 530px !important;
+  }
+  .modal-body {
+    padding-bottom: 43px !important;
+  }
+  .metaVideo {
+    width: 100%;
+    height: 120%;
+  }
+  .cardArea {
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  .projectTitle {
+    margin-left: 50px;
+  }
+  .resDesign {
+    width: unset;
+  }
+  .cardContent {
+    width: 1340px;
+  }
+  .cardImage {
+    width: 1340px;
+    height: 700px;
+  }
+  .modal-backdrop.show {
+    opacity: 0 !important;
+  }
+}
+/* @media screen and (max-width: 300px) {
+    .resDesign {
+      width: 1000px;
+    }
+  } */
