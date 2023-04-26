@@ -51,31 +51,6 @@ const Body = () => {
     setIframeLink(url);
     setShow(true);
   };
-  // const [data, setData] = useState([
-  //     {
-  //         imageSrc: jewellary,
-  //         name: 'Jewellary',
-  //         url: 'https://pwcjewelleryshowroomdemo.azurewebsites.net/'
-  //     },
-  //     {
-  //         imageSrc: volvo,
-  //         name: 'Automobile',
-  //         url: 'https://pwcautodemo.azurewebsites.net/'
-  //     },
-  //     {
-  //         imageSrc: showroom,
-  //         name: 'Fashion',
-  //         url: 'https://pwcclothingshowroomdemo.azurewebsites.net/'
-  //     }
-  // ])
-  // const addData = () => {
-  //     const newData = data.concat({
-  //         imageSrc: bank,
-  //         name: 'Bank',
-  //         url: 'Webgl link'
-  //     });
-  //     setData(newData);
-  // };
   return (
     <div className="resDesign">
       <div
@@ -116,35 +91,8 @@ const Body = () => {
               <ModalBody style={{ padding: "5px", top: "-50px" }}>
                 <iframe src={iframeLink} scrolling="no" className="metaVideo" />
               </ModalBody>
-              {/* <ModalFooter style={{ background: "#FFB600" }}>
-                        <div style={{ display: 'flex' }}>
-                            <a href={iframeLink} target='_blank' onClick={() => setShow(false)}>
-                                <img src={full} style={{ width: '65px', height: '65px' }} />
-                            </a>
-                            <buton onClick={() => setShow(false)}>
-                                <img src={close} style={{ width: '65px', height: '65px' }} />
-                            </buton>
-                        </div>
-                    </ModalFooter> */}
             </Modal>
           </div>
-          {/* <button className="loadBtn" onClick={addData}>
-                <span
-                    style={{
-                        fontFamily: 'PwC Helvetica Neue',arial,serif,
-                        fontStyle: "normal",
-                        fontWeight: "500",
-                        fontSize: "16px",
-                        lineHeight: "43px",
-                        textAlign: 'center',
-                        color: "#FFFFFF",
-                        paddingRight: '10px'
-                    }}
-                >
-                    Load More
-                </span>
-                <img src={refresh} style={{ width: "16px", height: "16px" }} />
-            </button> */}
         </div>
       </div>
     </div>

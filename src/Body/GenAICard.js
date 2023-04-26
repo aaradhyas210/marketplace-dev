@@ -1,7 +1,5 @@
 import React from "react";
 import "./index.css";
-// import arrowRight from "../assets/corner-down-right.png";
-// import arrowDown from "../assets/arrow-down.png";
 
 const GenAICard = ({
   imageSrc,
@@ -21,7 +19,6 @@ const GenAICard = ({
       <img src={imageSrc} className="cardImage" />
       <div className="cardContent">
         <div className="cardText">
-          {/* <img src={arrowRight} style={{ width: "24px", height: "24px" }} /> */}
           <p className="pTitle">
             <b style={{ wordBreak: "break-word" }}>{name}</b>
           </p>
@@ -53,9 +50,6 @@ const GenAICard = ({
             </a>
           )}
         </div>
-        {/* <div className="btmTriangle">
-            <img className="btnImg" src={arrowDown} />
-        </div> */}
       </div>
     </div>
   );
