@@ -18,6 +18,7 @@ const mockData = [
     name: "Web QnA",
     url: "https://gptchatbott.azurewebsites.net/",
     videoUrl: WebQAVideo,
+    isLinkDisabled: false,
     isVideoDisabled: false,
   },
   {
@@ -25,6 +26,7 @@ const mockData = [
     name: "Speech assistant",
     url: "https://speechgtp.azurewebsites.net/",
     videoUrl: SpeechVideo,
+    isLinkDisabled: false,
     isVideoDisabled: false,
   },
   {
@@ -32,6 +34,7 @@ const mockData = [
     name: "Document Summary - QnA Application",
     url: "",
     videoUrl: DocSummaryVideo,
+    isLinkDisabled: true,
     isVideoDisabled: false,
   },
   {
@@ -39,6 +42,7 @@ const mockData = [
     name: "Video summarization - QnA Application",
     url: "",
     videoUrl: VidSummaryVideo,
+    isLinkDisabled: true,
     isVideoDisabled: false,
   },
 ];
@@ -63,7 +67,17 @@ const Body = () => {
           <p className="projectTitle">Generative AI Solutions</p>
           <div className="cardArea">
             {mockData.map(
-              ({ imageSrc, name, url, videoUrl, isVideoDisabled }, index) => {
+              (
+                {
+                  imageSrc,
+                  name,
+                  url,
+                  videoUrl,
+                  isLinkDisabled,
+                  isVideoDisabled,
+                },
+                index
+              ) => {
                 return (
                   <div key={index} style={{ padding: "5px" }}>
                     <GenAICard
@@ -71,6 +85,7 @@ const Body = () => {
                       name={name}
                       url={url}
                       videoUrl={videoUrl}
+                      isLinkDisabled={isLinkDisabled}
                       isVideoDisabled={isVideoDisabled}
                       onClick={handleShow}
                     />

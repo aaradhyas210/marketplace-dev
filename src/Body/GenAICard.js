@@ -6,6 +6,7 @@ const GenAICard = ({
   url,
   name,
   videoUrl,
+  isLinkDisabled,
   isVideoDisabled,
   onClick,
 }) => {
@@ -24,15 +25,24 @@ const GenAICard = ({
           </p>
         </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <a
-            style={{ marginRight: "19px" }}
-            className="linkText"
-            onClick={() =>
-              window.open(url + "?dt=" + new Date().getTime(), "_blank")
-            }
-          >
-            Link
-          </a>
+          {isLinkDisabled ? (
+            <a
+              style={{ marginRight: "19px", cursor: "not-allowed" }}
+              className="linkText"
+            >
+              Link
+            </a>
+          ) : (
+            <a
+              style={{ marginRight: "19px" }}
+              className="linkText"
+              onClick={() =>
+                window.open(url + "?dt=" + new Date().getTime(), "_blank")
+              }
+            >
+              Link
+            </a>
+          )}
           {isVideoDisabled ? (
             <a
               style={{
