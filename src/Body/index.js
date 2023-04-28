@@ -32,17 +32,17 @@ const mockData = [
   {
     imageSrc: docsummary,
     name: "Document Summary - QnA Application",
-    url: "",
+    url: "https://green-forest-0e931cc10.3.azurestaticapps.net/",
     videoUrl: DocSummaryVideo,
-    isLinkDisabled: true,
+    isLinkDisabled: false,
     isVideoDisabled: false,
   },
   {
     imageSrc: videosummary,
     name: "Video summarization - QnA Application",
-    url: "",
+    url: "https://genai-video-summarization2.azurewebsites.net",
     videoUrl: VidSummaryVideo,
-    isLinkDisabled: true,
+    isLinkDisabled: false,
     isVideoDisabled: false,
   },
 ];
