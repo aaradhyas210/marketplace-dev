@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./index.css";
-import webqa from "../assets/Web scraping tool - QnA Chatbot.png";
-import speechassistant from "../assets/Speech Assistant.png";
-import docsummary from "../assets/Document Summary.png";
-import videosummary from "../assets/Video Summarization.png";
+import webqa from "../assets/webQAUpdated.PNG";
+import speechassistant from "../assets/speechUpdated.PNG";
+import docsummary from "../assets/docSummaryUpdated.PNG";
+import videosummary from "../assets/videoSummarizationUpdated.PNG";
 import WebQAVideo from "../assets/Web QnA - OpenAI.mp4";
 import SpeechVideo from "../assets/React App - Demonstration.mp4";
 import DocSummaryVideo from "../assets/Summary generation - Demonstration.mp4";
@@ -16,7 +16,7 @@ const mockData = [
   {
     imageSrc: webqa,
     name: "Web QnA",
-    url: "https://gptchatbott.azurewebsites.net/",
+    url: "https://agreeable-bush-002da0010.3.azurestaticapps.net/",
     videoUrl: WebQAVideo,
     isLinkDisabled: false,
     isVideoDisabled: false,
@@ -24,7 +24,7 @@ const mockData = [
   {
     imageSrc: speechassistant,
     name: "Speech assistant",
-    url: "https://speechgtp.azurewebsites.net/",
+    url: "https://polite-sea-048e5a710.3.azurestaticapps.net/",
     videoUrl: SpeechVideo,
     isLinkDisabled: false,
     isVideoDisabled: false,
@@ -32,7 +32,7 @@ const mockData = [
   {
     imageSrc: docsummary,
     name: "Document Summary - QnA Application",
-    url: "https://green-forest-0e931cc10.3.azurestaticapps.net/",
+    url: "https://blue-dune-0148bf810.3.azurestaticapps.net/",
     videoUrl: DocSummaryVideo,
     isLinkDisabled: false,
     isVideoDisabled: false,
@@ -40,7 +40,7 @@ const mockData = [
   {
     imageSrc: videosummary,
     name: "Video summarization - QnA Application",
-    url: "https://genai-video-summarization2.azurewebsites.net",
+    url: "https://delightful-cliff-09e727610.3.azurestaticapps.net/",
     videoUrl: VidSummaryVideo,
     isLinkDisabled: false,
     isVideoDisabled: false,
