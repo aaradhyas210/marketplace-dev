@@ -1,21 +1,25 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    background: conic-gradient(from 201.04deg at 69.69% -51.7%, #3F88C5 0deg, #203570 360deg, #203570 360deg);
-    height: auto;
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: conic-gradient(
+    from 201.04deg at 69.69% -51.7%,
+    #d04a02 0deg,
+    #ffb600ff 360deg,
+    #ffb600ff 360deg
+  );
+  height: auto;
 }
-p{
-    margin: 0px;
+p {
+  margin: 0px;
 }
 @media screen and (max-width: 1200px) {
-    .header {
-        width: 1440px;
-    }
+  .header {
+    width: 1440px;
+  }
 }
 
 @media screen and (min-width: 577px) {
-    .header {
-        height: 460px;
-    }
+  .header {
+    height: 460px;
+  }
 }
-    

@@ -14,10 +14,9 @@ const GenAICard = ({
     <div
       style={{
         display: "flex",
-        flexDirection: "column",
+        marginBottom: "30px",
       }}
     >
-      <img src={imageSrc} className="cardImage" />
       <div className="cardContent">
         <div className="cardText">
           <p className="pTitle">
@@ -30,7 +29,7 @@ const GenAICard = ({
               style={{ marginRight: "19px", cursor: "not-allowed" }}
               className="linkText"
             >
-              Link
+              Demo
             </a>
           ) : (
             <a
@@ -40,7 +39,7 @@ const GenAICard = ({
                 window.open(url + "?dt=" + new Date().getTime(), "_blank")
               }
             >
-              Link
+              Demo
             </a>
           )}
           {isVideoDisabled ? (
@@ -61,6 +60,7 @@ const GenAICard = ({
           )}
         </div>
       </div>
+      <img src={imageSrc} className="cardImage" />
     </div>
   );
 };

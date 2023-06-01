@@ -4,7 +4,7 @@ import sideheader from "../../assets/headerpic.png";
 const LogoSection = () => {
   return (
     <div className="logoContainer">
-      <img src={sideheader} style={{ width: "710px", height: "" }} />
+      {/* <img src={sideheader} style={{ width: "710px", height: "" }} /> */}
     </div>
   );
 };

@@ -1,12 +1,7 @@
 import React from "react";
 import "./index.css";
 import pwcLogo from "../../assets/pwcLogo.png";
-import Vector from "../../assets/Vector.png";
-import youtube from "../../assets/youtube.png";
-import web from "../../assets/web.png";
-import oculus from "../../assets/oculus.png";
 
-import LogoWithText from "./LogoWithText";
 const TextSection = () => {
   const getHeaderWithLogo = () => {
     return (
@@ -33,7 +28,7 @@ const TextSection = () => {
           display: "flex",
           alignItems: "flex-end",
           justifyContent: "space-between",
-          width: "320px",
+
           marginTop: "30px",
         }}
       >

@@ -1,48 +1,63 @@
 .cardArea {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   /* padding-left: 100px; */
   column-gap: 5px;
   row-gap: 30px;
   margin-bottom: 71px;
 }
 
+.containerCard {
+  background: conic-gradient(
+    from 207.74deg at 69.69% -51.7%,
+    #ffb600ff 0deg,
+    #d04a02 360deg,
+    #d04a02 360deg
+  );
+}
+
 .projectTitle {
-  font-family: "PwC ITC Charter",Georgia,Serif;
+  font-family: "PwC ITC Charter", Georgia, Serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 35px;
   line-height: 52px;
-  color: #2d2d2d;
+  color: rgba(255, 255, 255, 0.9);
   margin: 41px 0px 37px 8px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #2d2d2d;
+  padding: 10px 0;
 }
 
 .cardImage {
   width: 345px;
   height: 195px;
-  border-radius: 6px 6px 0px 0px; 
+  border-radius: 6px 6px 0px 0px;
 }
 
 .cardContent {
-  background-color: #2d2d2d;
+  background-color: rgb(45, 45, 45, 0.97);
   flex-direction: column;
   padding-bottom: 20px;
   border-radius: 0px 0px 6px 6px;
-  width: 345px;
+  flex-grow: 1;
 }
 
 .cardText {
   display: flex;
   /* padding-left: 25px; */
   padding-top: 18px;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 30px;
+  margin-bottom: 30px;
 }
 
 .pTitle {
   /* font-family: "Helvetica Neue LT Pro"; */
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 25px;
   color: #e8e6e6;
   /* margin-left: 9px; */
@@ -53,23 +68,19 @@
   font-style: normal;
   font-weight: 900;
   font-size: 15px;
-  line-height: 25px;
   background-color: #ffffff;
   text-decoration: none;
-  padding: 7px 10px;
-  text-align: center;
-  margin-top: 20px;
-  display: block;
-  width: 81px;
-  height: 40px;
-  position: relative;
-  /* left: 26%; */
+  padding: 8px 40px;
   color: #2d2d2d;
-  border-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .linkText:hover {
   color: #2d2d2d;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 /* .loadBtn {
     width: 190px;

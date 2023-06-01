@@ -56,7 +56,7 @@ const Body = () => {
     setShow(true);
   };
   return (
-    <div className="resDesign">
+    <div className="resDesign containerCard">
       <div
         style={{
           display: "flex",
