@@ -32,7 +32,7 @@ const mockData = [
   {
     imageSrc: docsummary,
     name: "Document Summary - QnA Application",
-    url: "https://blue-dune-0148bf810.3.azurestaticapps.net/",
+    url: "https://lively-pebble-04512d000.3.azurestaticapps.net/",
     videoUrl: DocSummaryVideo,
     isLinkDisabled: false,
     isVideoDisabled: false,
